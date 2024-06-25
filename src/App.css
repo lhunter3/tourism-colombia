@@ -1,0 +1,10 @@
+
+/* Assuming you add a specific class 'scrollable-container' to your div */
+.scrollable-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollable-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
