@@ -153,7 +153,7 @@ export function ActivitiesComponent() {
 
                 <SwipeableViews enableMouseEvents index={currentIndex} onChangeIndex={setCurrentIndex}>
                     {cards.map((card, index) => (
-                        <div key={index} className="flex justify-center card transform transition-all duration-300 mx-2 lg:scale-90 ">
+                        <div key={index} className="flex justify-center card transform transition-all duration-300">
                             <div className="flex-shrink-0 w-60">
                                 <div className="bg-white rounded-lg overflow-hidden text-center relative">
                                     <img src={card.img} alt={`Activity ${index + 1}`} className="w-full rounded" />
